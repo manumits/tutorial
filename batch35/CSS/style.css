@@ -1,0 +1,20 @@
+div{
+	font-family:verdana;
+}
+#d1{
+	font-size:45px;
+	color:red;
+	background-color:grey;
+}
+
+#d3,#d5,#d6{
+	
+	color:orange;
+}
+
+.special{
+	font-family:arial;
+	background-color:rgba(23,34,45,0.5);
+	color:white;
+	font-size:32;
+}

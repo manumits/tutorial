@@ -1,0 +1,52 @@
+
+a{
+	color:red;
+}
+a:visited{
+	color:pink;
+}
+a:active{
+	color:green;
+}
+a:focus{
+	color:yellow;
+}
+
+#d1{
+	color:green;
+}
+#d1:first-letter{
+	color:blue;
+	font-size:49px;
+}
+#d1:first-line{
+	font-family:verdana;
+}
+
+.fl:first-letter{
+	color:pink;
+	font-size:50px;
+}
+
+.fl:first-line{
+	font-family:arial;
+}
+
+div h1{
+	color:orange;
+}
+
+#d1 span i{	
+	font-size:60px;
+}
+
+span[title]{
+	background-color:yellow;
+}
+span[title="Developer"]{
+	font-variant:small-caps;
+}
+
+span[title$="mmer"]{
+	font-weight:bold;
+}
