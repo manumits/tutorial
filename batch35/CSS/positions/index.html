@@ -17,13 +17,14 @@
 				var t = d.toLocaleTimeString();
 				document.getElementById("demo").innerHTML = t;
 				if(x<3){
+					document.getElementsByTagName("img")[x].style.zIndex=2;	
 					x++;
 				}
 				else{
 					x=0;
-				}
-				document.getElementsByTagName("img")[x-1].style.zIndex=0;
-				document.getElementsByTagName("img")[x].style.zIndex=2;				
+				}						
+				document.getElementsByTagName("img")[x-1].style.zIndex=0;	
+						
 		}
 	</script>
 	</body>

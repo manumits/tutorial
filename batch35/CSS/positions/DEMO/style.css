@@ -1,0 +1,16 @@
+#d1{
+	background-color:pink;
+	position:absolute;
+	top:50px;
+	left:50px;
+}
+#dd1{
+	background-color:grey;
+	
+}
+#d2{
+	background-color:yellow;
+	position:fixed;
+	top:50px;
+	left:50px;
+}
