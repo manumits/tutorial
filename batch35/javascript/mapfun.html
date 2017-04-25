@@ -1,0 +1,39 @@
+<html>
+	<script>
+	
+		var ar=["praveen","srikanth","geetha"];		
+		console.log(typeof(ar));
+	
+		var x="Rohit";
+		console.log(typeof(x));
+		var y=ar.toString();
+		console.log(typeof(y));
+		console.log(y);
+		var z=ar.join("$");
+		console.log(typeof(z));
+		console.log(z);
+		
+		ar.push("sravya");
+		console.log(ar);
+		
+		ar.pop();
+		console.log(ar);
+		
+		console.log(ar.length);
+		delete ar[1];
+		
+		console.log(ar);
+		ar.push("sachin");
+		ar.push("rahane");
+		ar.push("kohli");
+		ar.push("dhoni");
+		ar.push("dhavan");
+		ar.push("tapsi");
+		ar.push("sam");
+		
+		console.log(ar);
+		
+		ar.splice(1,3);
+		console.log(ar);
+	</script>
+</html>

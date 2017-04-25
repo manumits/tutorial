@@ -1,0 +1,29 @@
+<html>
+	<head>
+	</head>
+	<body>
+		
+		<script>
+			var ll=0;
+			var pp=[324,73,34,45,96,76,78,89];			
+				<!-- for(i=0;i<pp.length;i++) -->
+				<!-- { -->
+					<!-- console.log(pp[i]);			 -->
+				<!-- } -->
+			<!-- console.dir(pp); -->
+			<!-- console.log(pp.indexOf(90)); -->
+			
+			var kk = pp.filter(abc);
+			
+			function abc(p,q,r){
+				console.log(p+"-"+q+"-"+r);
+				ll++;
+				console.log(ll);
+				if(p>78){
+					return(p);
+				}
+			}
+			console.log(kk);
+		</script>
+	</body>
+</html>

@@ -1,0 +1,40 @@
+<html>
+	<script>
+		var ar=["praveen","sachin","tison"];
+		var employees=[	["praveen","33","Pune","FreeLance Developer and Trainer"]
+							,["srikanth","30","blore","Unix Admin"]
+							,["Harish","30","Hyd","Tester"]
+							];
+							
+							for(var i=0;i<employees.length;i++){
+								console.log(employees[i][0]);
+							}
+							
+		var employees1=[{"name":"Praveen","age":"33","Location":"Pune","Job":"FreeLance Developer and Technical Trainer"},
+										{"name":"Srikanth","age":"30","Location":"Bengaluru","Job":"Unix Administrator"},
+										{"name":"Harish","age":"30","Location":"Hyderabad","Job":"Tester"}
+										];
+										console.log(employees1[0].name);
+		
+		var salary={
+			"basic":12000,
+			"hra":20,
+			"DA":89,
+			netSal:function(){
+				totalhra=this.basic*0.2;
+				totalda=this.basic*0.89;
+				totalSal=totalhra+totalda+this.basic;
+				return totalSal;
+			}			
+		};
+		var praveensal=salary;
+			var mysal=praveensal.netSal();
+			console.log(mysal);
+			var geeta=salary;
+			geeta.basic=20000;
+			geeta.hra=40;
+			geeta.da=80;
+			var geetasal=geeta.netSal();
+			console.log("Geeta's salary is:"+geetasal);
+	</script>
+</html>
